@@ -9,12 +9,10 @@ public class Member {
 
 	public Member(String name, String email, String university, String chapter, String region, String bio) {
 		this.name = name;
-	    this.email = email;
-	    this.university = university;
-	    this.chapter = chapter;
-	    this.region = region;
-	    this.bio = region;
-	  }
-	  
-	public newMember(String 
+		this.email = email;
+		this.university = university;
+		this.chapter = chapter;
+		this.region = region;
+		this.bio = region;
+	}
 }
