@@ -4,6 +4,6 @@ public class State{
     //public ArrayList<Chapter> chapters;
 
     public State(String stateName){
-        sName = stateName
+        sName = stateName;
     }
 }
