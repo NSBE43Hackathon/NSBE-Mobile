@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
-public class Chapters {
+public class Chapter {
 
-	String university;
-	String city;
-	String state;
-	ArrayList<Object> members = new ArrayList<Object>();
+	public String university;
+	public String city;
+	public String state;
+	public ArrayList<Member> members = new ArrayList<Member>();
 	
 	public void addMember(Member name){
 		members.add(name);

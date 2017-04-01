@@ -1,10 +1,10 @@
 
 public class Region {
 
-    public String rName
-    public ArrayList<String> states;
+    public String rName;
+    public ArrayList<State> states;
 
-    publicRegion(String regionName)
+    public Region(String regionName)
     {
         rName = regionName;
     }
