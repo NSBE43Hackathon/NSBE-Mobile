@@ -18,7 +18,8 @@
         android:text="National Executive Board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nationalExec" />
+        android:id="@+id/nationalExec"
+        />
 
     <Button
         android:text="Region I"

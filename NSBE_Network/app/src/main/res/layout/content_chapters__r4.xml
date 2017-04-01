@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_chapters__r4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.chels.nsbe_network.Chapters_R4"
+    tools:showIn="@layout/app_bar_chapters__r4">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="Case Western Reserve University"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chapter_cwru"
+        android:onClick="ButtonOnClick"
+        />
+
+    <Button
+        android:text="Cleveland State University"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chapter_cwru"
+        android:id="@+id/chapter_csu"
+        />
+
+    <Button
+        android:text="The Ohio State University"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chapter_csu"
+        android:id="@+id/chapter_tosu"
+        />
+    </ScrollView>
+</RelativeLayout>

@@ -13,32 +13,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.view.View;
 
-import static com.example.chels.nsbe_network.R.id.new_hampshire;
-
-public class Regions extends AppCompatActivity
+public class Chapters_R4 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
-        @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_regions);
+        setContentView(R.layout.activity_chapters__r4);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-  /*      FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
-*/
+        });*/
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -62,7 +56,7 @@ public class Regions extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.regions, menu);
+        getMenuInflater().inflate(R.menu.chapters__r4, menu);
         return true;
     }
 
@@ -88,17 +82,17 @@ public class Regions extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.professionals) {
-            Intent regionSwitch = new Intent(Regions.this,
+            Intent regionSwitch = new Intent(Chapters_R4.this,
                     Regions.class);
-            Regions.this.startActivity(regionSwitch);
+            Chapters_R4.this.startActivity(regionSwitch);
         } else if (id == R.id.collegiate) {
 
         } else if (id == R.id.nsbeJr) {
 
         } else if (id == R.id.profile) {
-            Intent profileSwitch = new Intent(Regions.this,
+            Intent profileSwitch = new Intent(Chapters_R4.this,
                     PullOutMenu.class);
-            Regions.this.startActivity(profileSwitch);
+            Chapters_R4.this.startActivity(profileSwitch);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -108,20 +102,10 @@ public class Regions extends AppCompatActivity
 
     public void ButtonOnClick(View v) {
         switch (v.getId()) {
-            case R.id.regionOne:
-                Intent regionOneStateSwitch = new Intent(Regions.this,
-                        Region_I_States.class);
-                Regions.this.startActivity(regionOneStateSwitch);
-                break;
-            case R.id.regionTwo:
-                Intent regionTwoStateSwitch = new Intent(Regions.this,
-                        Region_II_States.class);
-                Regions.this.startActivity(regionTwoStateSwitch);
-                break;
-            case R.id.regionFour:
-                Intent regionFourStateSwitch = new Intent(Regions.this,
-                        Region_IV_States.class);
-                Regions.this.startActivity(regionFourStateSwitch);
+            case R.id.chapter_cwru:
+                Intent regionOneChapterSwitch = new Intent(Chapters_R4.this,
+                        chapter_info.class);
+                Chapters_R4.this.startActivity(regionOneChapterSwitch);
                 break;
         }
     }

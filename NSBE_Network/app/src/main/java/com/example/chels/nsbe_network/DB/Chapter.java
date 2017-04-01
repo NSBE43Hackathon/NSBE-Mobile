@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 
 public class Chapter {
 
@@ -10,4 +10,4 @@ public class Chapter {
 	public void addMember(Member name){
 		members.add(name);
 	}
-}
+}*/

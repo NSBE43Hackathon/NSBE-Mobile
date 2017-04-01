@@ -1,4 +1,4 @@
-public class State{
+/*public class State{
 
     public String sName;
     public ArrayList<Chapter> chapters;
@@ -6,4 +6,4 @@ public class State{
     public State(String stateName){
         sName = stateName;
     }
-}
+}*/

@@ -1,5 +1,5 @@
 
-public class Region {
+/*public class Region {
 
     public String rName;
     public ArrayList<State> states;
@@ -8,4 +8,4 @@ public class Region {
     {
         rName = regionName;
     }
-}
+}*/

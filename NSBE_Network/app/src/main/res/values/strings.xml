@@ -7,4 +7,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_regions">Regions</string>
     <string name="title_activity_states">states</string>
+    <string name="title_activity_region__i__states">Region_I_States</string>
+    <string name="title_activity_region__ii__states">Region_II_States</string>
+    <string name="title_activity_region__iv__states">Region_IV_States</string>
+    <string name="title_activity_chapters__r1">Chapters_R1</string>
+    <string name="title_activity_chapters__r2">Chapters_R2</string>
+    <string name="title_activity_chapters__r4">Chapters_R4</string>
+    <string name="title_activity_chapter_info">chapter_info</string>
 </resources>

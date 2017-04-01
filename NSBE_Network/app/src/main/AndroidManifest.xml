@@ -25,6 +25,34 @@
         <activity
             android:name=".states"
             android:label="@string/title_activity_states"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Region_I_States"
+            android:label="@string/title_activity_region__i__states"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Region_II_States"
+            android:label="@string/title_activity_region__ii__states"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Region_IV_States"
+            android:label="@string/title_activity_region__iv__states"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapters_R1"
+            android:label="@string/title_activity_chapters__r1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapters_R2"
+            android:label="@string/title_activity_chapters__r2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chapters_R4"
+            android:label="@string/title_activity_chapters__r4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chapter_info"
+            android:label="@string/title_activity_chapter_info"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,51 +15,245 @@
     tools:showIn="@layout/app_bar_states">
 
     <Button
-        android:text="National Executive Board"
+        android:text="Alabama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nationalExec" />
+        android:id="@+id/alabama" />
 
     <Button
-        android:text="Region I"
+        android:text="Alaska"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nationalExec"
-        android:id="@+id/regionOne" />
+        android:layout_below="@+id/alabama"
+        android:id="@+id/alaska" />
 
     <Button
-        android:text="Region II"
+        android:text="Arizona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionOne"
-        android:id="@+id/regionTwo" />
+        android:layout_below="@+id/alaska"
+        android:id="@+id/arizona" />
 
     <Button
-        android:text="Region III"
+        android:text="Arkansas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionTwo"
-        android:id="@+id/regionThree" />
+        android:layout_below="@+id/alaska"
+        android:id="@+id/arkansas" />
 
     <Button
-        android:text="Region IV"
+        android:text="California"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionThree"
-        android:id="@+id/regionFour" />
+        android:layout_below="@+id/arkansas"
+        android:id="@+id/california" />
 
     <Button
-        android:text="Region V"
+        android:text="Colorado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionFour"
-        android:id="@+id/regionFive" />
+        android:layout_below="@+id/california"
+        android:id="@+id/colorado" />
+
+
+
+
 
     <Button
-        android:text="Region VI"
+        android:text="Florida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionFive"
-        android:id="@+id/regionSix" />
+        android:layout_below="@+id/delaware"
+        android:id="@+id/florida" />
+
+    <Button
+        android:text="Georgia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/florida"
+        android:id="@+id/georgia" />
+
+    <Button
+        android:text="Hawaii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/georgia"
+        android:id="@+id/hawaii" />
+
+    <Button
+        android:text="Idaho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hawaii"
+        android:id="@+id/idaho" />
+
+
+
+
+    <Button
+        android:text="Iowa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indiana"
+        android:id="@+id/iowa" />
+
+    <Button
+        android:text="Kansas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iowa"
+        android:id="@+id/kansas" />
+
+    <Button
+        android:text="Kentucky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kansas"
+        android:id="@+id/kentucky" />
+
+    <Button
+        android:text="Louisiana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kentucky"
+        android:id="@+id/louisiana" />
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:text="Mississippi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minnesota"
+        android:id="@+id/mississippi" />
+
+    <Button
+        android:text="Missouri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mississippi"
+        android:id="@+id/missouri" />
+    <Button
+        android:text="Montana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/missouri"
+        android:id="@+id/montana" />
+
+    <Button
+        android:text="Nebraska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/montana"
+        android:id="@+id/nebraska" />
+
+    <Button
+        android:text="Nevada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nebraska"
+        android:id="@+id/nevada" />
+
+
+
+    <Button
+        android:text="New Jersey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_hampshire"
+        android:id="@+id/new_jersey" />
+
+    <Button
+        android:text="New Mexico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_jersey"
+        android:id="@+id/new_mexico" />
+
+    <Button
+        android:text="New York"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_mexico"
+        android:id="@+id/new_york" />
+
+
+    <Button
+        android:text="North Dakota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/north_carolina"
+        android:id="@+id/north_dakota" />
+
+
+
+
+
+    <Button
+        android:text="Oregon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oklahoma"
+        android:id="@+id/oregon" />
+
+
+
+
+    <Button
+        android:text="South Dakota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/south_carolina"
+        android:id="@+id/south_dakota" />
+
+    <Button
+        android:text="Tennessee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/south_dakota"
+        android:id="@+id/tennessee" />
+
+    <Button
+        android:text="Texas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tennessee"
+        android:id="@+id/texas" />
+
+    <Button
+        android:text="Utah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texas"
+        android:id="@+id/utah" />
+
+
+
+
+
+    <Button
+        android:text="Washington"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/virginia"
+        android:id="@+id/washington" />
+
+
+
+
+
+    <Button
+        android:text="Wyoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wisconsin"
+        android:id="@+id/wyoming" />
 
 </RelativeLayout>

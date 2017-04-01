@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_regions"
+    android:id="@+id/content_region__iv__states"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -10,63 +10,50 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.chels.nsbe_network.Regions"
-    tools:showIn="@layout/app_bar_regions">
+    tools:context="com.example.chels.nsbe_network.Region_IV_States"
+    tools:showIn="@layout/app_bar_region__iv__states">
 
     <Button
-        android:text="National Executive Board"
+        android:text="Illinois"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nationalExec" />
+        android:id="@+id/illinois" />
 
     <Button
-        android:text="Region I"
+        android:text="Indiana"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nationalExec"
-        android:id="@+id/regionOne"
+        android:layout_below="@+id/illinois"
+        android:id="@+id/indiana" />
+
+    <Button
+        android:text="Michigan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indiana"
+        android:id="@+id/michigan" />
+
+    <Button
+        android:text="Minnesota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/michigan"
+        android:id="@+id/minnesota" />
+
+    <Button
+        android:text="Ohio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minnesota"
+        android:id="@+id/ohio"
         android:onClick="ButtonOnClick"
         />
 
     <Button
-        android:text="Region II"
+        android:text="Wisconsin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/regionOne"
-        android:id="@+id/regionTwo"
-        android:onClick="ButtonOnClick"
-        />
-
-    <Button
-        android:text="Region III"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/regionTwo"
-        android:id="@+id/regionThree"
-        />
-
-    <Button
-        android:text="Region IV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/regionThree"
-        android:id="@+id/regionFour"
-        android:onClick="ButtonOnClick"
-        />
-
-    <Button
-        android:text="Region V"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/regionFour"
-        android:id="@+id/regionFive" />
-
-    <Button
-        android:text="Region VI"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/regionFive"
-        android:id="@+id/regionSix"
-        />
+        android:layout_below="@+id/ohio"
+        android:id="@+id/wisconsin" />
 
 </RelativeLayout>
