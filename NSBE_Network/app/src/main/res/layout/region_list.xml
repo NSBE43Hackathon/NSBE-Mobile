@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_pull_out_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <Button
+        android:text="National Executive Board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nationalExec" />
+
+    <Button
+        android:text="Region I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nationalExec"
+        android:id="@+id/regionOne" />
+
+    <Button
+        android:text="Region II"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionOne"
+        android:id="@+id/regionTwo" />
+
+    <Button
+        android:text="Region III"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionTwo"
+        android:id="@+id/regionThree" />
+
+    <Button
+        android:text="Region IV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionThree"
+        android:id="@+id/regionFour" />
+
+    <Button
+        android:text="Region V"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionFour"
+        android:id="@+id/regionFive" />
+
+    <Button
+        android:text="Region VI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionFive"
+        android:id="@+id/regionSix" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_pull_out_menu"
+        app:menu="@menu/activity_pull_out_menu_drawer" />
+
+</RelativeLayout>
