@@ -6,6 +6,6 @@ public class Region {
 
     publicRegion(String regionName)
     {
-        regionName =
+        rName = regionName;
     }
 }
