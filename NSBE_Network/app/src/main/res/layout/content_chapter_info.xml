@@ -89,5 +89,15 @@
         android:layout_marginTop="20dp"
         android:id="@+id/general_member" />
 
+    <Button
+        android:text="Add New member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addMember"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="ButtonOnClick"
+        />
+
 
 </RelativeLayout>

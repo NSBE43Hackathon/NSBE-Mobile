@@ -14,4 +14,5 @@
     <string name="title_activity_chapters__r2">Chapters_R2</string>
     <string name="title_activity_chapters__r4">Chapters_R4</string>
     <string name="title_activity_chapter_info">chapter_info</string>
+    <string name="title_activity_new_member">new_member</string>
 </resources>

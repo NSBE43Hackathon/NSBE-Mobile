@@ -1,3 +1,4 @@
+package com.example.chels.nsbe_network.DB;
 
 public class Member {
 	public String name;

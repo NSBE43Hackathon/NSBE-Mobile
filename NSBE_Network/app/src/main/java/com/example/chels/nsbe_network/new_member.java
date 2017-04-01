@@ -13,25 +13,30 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.TextView;
 
-public class chapter_info extends AppCompatActivity
+import com.example.chels.nsbe_network.DB.Chapter;
+
+public class new_member extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chapter_info);
+        setContentView(R.layout.activity_new_member);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-       /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+/*        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        }); */
+        });
+        */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -56,7 +61,7 @@ public class chapter_info extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.chapter_info, menu);
+        getMenuInflater().inflate(R.menu.new_member, menu);
         return true;
     }
 
@@ -82,17 +87,17 @@ public class chapter_info extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.professionals) {
-            Intent addMemberSwitch = new Intent(chapter_info.this,
+            Intent saveMemberSwitch = new Intent(new_member.this,
                     Regions.class);
-            chapter_info.this.startActivity(addMemberSwitch);
+            new_member.this.startActivity(saveMemberSwitch);
         } else if (id == R.id.collegiate) {
 
         } else if (id == R.id.nsbeJr) {
 
         } else if (id == R.id.profile) {
-            Intent addMemberSwitch = new Intent(chapter_info.this,
+            Intent saveMemberSwitch = new Intent(new_member.this,
                     PullOutMenu.class);
-            chapter_info.this.startActivity(addMemberSwitch);
+            new_member.this.startActivity(saveMemberSwitch);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -102,10 +107,10 @@ public class chapter_info extends AppCompatActivity
 
     public void ButtonOnClick(View v) {
         switch (v.getId()) {
-            case R.id.addMember:
-                Intent regionOneChapterSwitch = new Intent(chapter_info.this,
-                        new_member.class);
-                chapter_info.this.startActivity(regionOneChapterSwitch);
+            case R.id.submit_member:
+                Intent returnToChapterSwitch = new Intent(new_member.this,
+                        chapter_info.class);
+                new_member.this.startActivity(returnToChapterSwitch);
                 break;
         }
     }
