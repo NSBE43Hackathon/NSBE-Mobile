@@ -21,6 +21,10 @@
         <activity
             android:name=".Regions"
             android:label="@string/title_activity_regions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".states"
+            android:label="@string/title_activity_states"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
